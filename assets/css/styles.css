@@ -96,10 +96,10 @@ section h1{
 }
 
 .spotify__bg {
-  margin: 0;
-  padding: 20px;
-  background-color: #76ce00;
-  }
+    margin: 0;
+    padding: 20px;
+    background-color: #76ce00;
+}
 
 .fechas{
     margin: 0;
@@ -291,25 +291,41 @@ select{
     justify-content: space-between;
     align-items:center;
     min-height: 500px;
+    gap: 100px;
 }
 .banda__txt{
     width: 100%;
     max-width: 500px;
-    padding: 10px;
+    padding: 30px;
 }
 
 .banda__img{
     width: 100%;
+    padding: 20;
     max-width: 450px;
 }
 
+.fechas{
+    margin-top: 30px;
+    padding: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    min-height: 500px;
+    gap: 50px;
+}
+
+.fechas__txt{
+    font-size: 46px;
+}
 .fechas__grilla{
     padding: 0px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 20px;
 }
 
 .fechas__img{
@@ -323,6 +339,17 @@ select{
     filter: saturate(1);
 }
 
+.galeria{
+    margin-top: 30px;
+    padding: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    min-height: 500px;
+    gap: 50px;
+}
+
 .galeria__grilla{
     padding: 50px;
     margin: auto;
@@ -332,6 +359,9 @@ select{
     gap: 10px;
 }
 
+.galeria__txt{
+    font-size: 34px;
+}
 .galeria__img{
     width: 100%;
     max-width: 300px;
@@ -339,6 +369,7 @@ select{
 }
 .galeria__img:hover{
     filter: saturate(1);
+    zoom: 150%;
 }
 
 .musica{
@@ -355,4 +386,12 @@ select{
     width: 100%;
     max-width: 500px;
     padding: 10px;
+}
+
+.fondo{
+    margin: 0;
+    border: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/musica/musica_bg.jpg);
 }
